@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1496775F1FA6FE06006CF4C7 /* CartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1496775D1FA6FE06006CF4C7 /* CartCell.m */; };
+		149677601FA6FE06006CF4C7 /* CartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1496775E1FA6FE06006CF4C7 /* CartCell.xib */; };
 		149A2F7F1FA2F20C0077D20C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 149A2F7E1FA2F20C0077D20C /* AppDelegate.m */; };
 		149A2F821FA2F20C0077D20C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149A2F811FA2F20C0077D20C /* ViewController.m */; };
 		149A2F851FA2F20C0077D20C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149A2F831FA2F20C0077D20C /* Main.storyboard */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1496775C1FA6FE06006CF4C7 /* CartCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CartCell.h; sourceTree = "<group>"; };
+		1496775D1FA6FE06006CF4C7 /* CartCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CartCell.m; sourceTree = "<group>"; };
+		1496775E1FA6FE06006CF4C7 /* CartCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartCell.xib; sourceTree = "<group>"; };
 		149A2F7A1FA2F20C0077D20C /* FlyingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		149A2F7D1FA2F20C0077D20C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		149A2F7E1FA2F20C0077D20C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +115,9 @@
 				149A2F881FA2F20C0077D20C /* LaunchScreen.storyboard */,
 				149A2F8B1FA2F20C0077D20C /* Info.plist */,
 				149A2F8C1FA2F20C0077D20C /* main.m */,
+				1496775C1FA6FE06006CF4C7 /* CartCell.h */,
+				1496775D1FA6FE06006CF4C7 /* CartCell.m */,
+				1496775E1FA6FE06006CF4C7 /* CartCell.xib */,
 			);
 			path = FlyingCart;
 			sourceTree = "<group>";
@@ -241,6 +249,7 @@
 				149A2F8A1FA2F20C0077D20C /* LaunchScreen.storyboard in Resources */,
 				149A2F871FA2F20C0077D20C /* Assets.xcassets in Resources */,
 				149A2F851FA2F20C0077D20C /* Main.storyboard in Resources */,
+				149677601FA6FE06006CF4C7 /* CartCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +277,7 @@
 				149A2F821FA2F20C0077D20C /* ViewController.m in Sources */,
 				149A2F8D1FA2F20C0077D20C /* main.m in Sources */,
 				149A2F7F1FA2F20C0077D20C /* AppDelegate.m in Sources */,
+				1496775F1FA6FE06006CF4C7 /* CartCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
